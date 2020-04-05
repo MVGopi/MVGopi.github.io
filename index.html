@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<title>Venkata Gopi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5, h6, p, ul {
+  font-family: Georgia, serif;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+   font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+</style>
+<body class="w3-theme-l5">
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:10px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <p class="w3-center"><img src="Images/Photo.jpg" class="w3-circle" style="height:150px;width:150px" alt="Avatar"></p>
+         <h3 class="w3-center" style="font-size: 22px"><b>Venkata Gopi Mandoori<b></h3>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Trainer, APSSDC</p>
+         <p><i class="fa fa-map-marker fa-fw w3-margin-right w3-text-theme"></i> Vijayawada, India</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> May 22, 1995</p>
+         <p><i class="fa fa-envelope fa-fw w3-margin-right w3-text-theme"></i>venkatagopi.m@apssdc.in</p>
+         <p><i class="fa fa-phone fa-fw w3-margin-right w3-text-theme"></i>9705928369</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Skills --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p class="w3-center" style="font-size: 22px"><b>Technical Skills</b></p>
+          <p>
+            <span class="w3-tag w3-medium w3-theme-d5">Problem Solving using Python</span>
+            <span class="w3-tag w3-medium w3-theme-d4">Python Data Structures</span>
+            <span class="w3-tag w3-medium w3-theme-d3">Data Analysis with Python</span>
+             <span class="w3-tag w3-medium w3-theme-d3">Data Visualization with Python</span>
+            <span class="w3-tag w3-medium w3-theme-d2">Machine Learning with Python</span>
+            <span class="w3-tag w3-medium w3-theme-d1">Web Development using python</span>
+            <span class="w3-tag w3-medium w3-theme">Source Code Management using Git</span>
+          </p>
+        </div>
+      </div>
+      <br>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 style="font-size: 22px;"><b>Profile Summary<b></h6>
+              <ul>
+                <li>Having 3+ years of experience in training students in engineering colleges throughout Andhra Pradesh on various technologies.</li>
+                <li>Trained approximately 4000 students so far in short term & long term training programs.</li>
+                <li>Good in technical mentoring, code reviews to deliver quality output.</li>
+                <li>Involved in knowledge sharing and knowledge transfer to the new members of the team & Preparation of knowledge transfer documents.</li>
+                <li>Participated in trainings offered in order to increase technical skills.</li>
+                 <li>Good in Oral and written communication skills.</li>
+                <li>Taking ownership of any assigned work.</li>
+                <li>Got consistent & good feedback from every training program.</li>
+              <ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+       <h6 style="font-size: 22px;"><b>Certifications<b></h6>
+              <ul>
+                <li>Python for Everybody Specialization from Coursera offered by Michigan University</li>
+                <li>Applied Data Science with Python Specialization from Coursera offered by Michigan University</li>
+                <li>Full Stack Web Developer Nanodegree from Udacity</li>
+              <ul>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+      <h6 style="font-size: 22px;"><b>Educational Details<b></h6>
+      <ul>
+       <li>Graduation from LBR College of Engineering (2012-16)</li>
+       <li>Intermediate from Sri Chaitanya Junior College (2010-12)</li>
+       <li>SSC from Golden Buds EM School (2010)</li>
+     </ul>
+      </div> 
+            
+    <!-- End Mi Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+          <p class="w3-center"><a href="https://docs.python.org/3/"><img src="Images/python.jpg" class="w3-circle" style="height:180px;width:180px" alt="Avatar"></a></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+          <p class="w3-center"><a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044"><img src="Images/udacity.jpg" class="w3-circle" style="height:180px;width:180px" alt="Avatar"></a></p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+          <p class="w3-center"><a href="https://github.com/MVGopi"><img src="Images/git.png" class="w3-circle" style="height:180px;width:180px" alt="Avatar"></a></p>
+        </div>
+      </div>
+      
+    <!-- End Right Column -->
+    </div>
+ 
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+
+<div class="slideshow-container w3-center">
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="Images/Gitam.jpg" style="width:100%">
+  <div class="text">Python Workshop @Gitam University </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Images/Vidyaniketan.jpg" style="width:100%">
+  <div class="text">Python Worksshop @Sree Vidyaniketan Engineering College</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="Images/VIGNAN.jpg" style="width:100%">
+  <div class="text">Python for Everybody Certification @ Vignan University</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="Images/RVRJC2.jpg" style="width:100%">
+  <div class="text">Python Workshop @RVR&JC College Engineering</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script> 
+
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d5 w3-padding-12">
+  <center>
+    <a href="https://www.facebook.com/venkata.gopi.96" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/GopiMandoori" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/venkatagopi.m/" class="fa fa-instagram"></a>
+    <a href="https://www.linkedin.com/in/venkata-gopi-664246124/" class="fa fa-linkedin"></a>
+  </center>
+</footer>
+
+<footer class="w3-container w3-theme-d5 w3-padding-10">
+  <p class="w3-center">Thank You for Visiting my Profile</p>
+</footer>
+ 
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
